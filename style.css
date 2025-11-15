@@ -88,7 +88,7 @@ gap: 15px;
 
 /* PRIMEROS 4 CUADROS */
 
-.honda, .nissan, .toyota, .mazda{
+.honda, .nissan, .toyota, .mazda, .hyundai, .kia, .mitsubishi, .suzuki{
 
     border: 2px solid gray;
     padding: 15px;
@@ -115,4 +115,14 @@ gap: 15px;
     height: auto;
     border-radius: 6px;
 
+}
+
+.pie-de-pagina{
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: darkblue;
+    color: white;
 }
