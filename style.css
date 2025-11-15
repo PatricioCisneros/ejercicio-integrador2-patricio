@@ -1,0 +1,31 @@
+.franja-azul-pequeña{
+   
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.franja-azul-grande{
+   
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.franja-roja{
+
+    color: darkred; 
+    background-color:darkred; 
+    height: 10px;
+    size: 15px;
+}
