@@ -163,7 +163,26 @@
         <label for=""><input type="checkbox" value="Camara trasera">Camara trasera</label>
         <label for=""><input type="checkbox" value="Camara frontal">Camara frontal</label>
 
+        <!-- SELECCION DE MARCA -->
+        <p><strong>Marca del vehículo:</strong></p>
+        <select id="marca">
+            <option>Honda</option>
+            <option>Nissan</option>
+            <option>Toyota</option>
+            <option>Mazda</option>
+            <option>Hyundai</option>
+            <option>Kia</option>
+            <option>Mitsubishi</option>
+            <option>Suzuki</option>
+        </select>
+
+        <!-- BOTON -->
+        <button type="button" onclick="mostrarCotizacion()">Hacer cotización</button>
+
     </form>
+
+    <!-- MUESTRA LA COTIZACIÓN -->
+    <div id="resultado" class="resultado"></div>
 
     <div class="pie-de-pagina">
         <p>Oscar Patricio Guerra Cisneros   #45760</p>

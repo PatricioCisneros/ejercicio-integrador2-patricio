@@ -136,3 +136,56 @@ gap: 15px;
     background-color: darkblue;
     
 }
+
+/* ESTILO DEL FORMULARIO */
+
+.formulario{
+
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: white;
+
+}
+
+.formulario input, select{
+
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+button{
+
+    padding: 10px;
+    background: darkblue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    background: navy;
+
+}
+
+.resultado{
+
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
