@@ -1,3 +1,4 @@
+/* franjas */
 .franja-azul-pequeña{
    
     background-color: darkblue;
@@ -28,4 +29,49 @@
     background-color:darkred; 
     height: 10px;
     size: 15px;
+}
+
+/* Fila de video, marquesina y mapa */
+.primer-fila{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+gap: 15px;    
+}
+
+.video{
+
+    width: 28%;
+    background-color: #6faee4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.marquesina{
+
+    width: 44%;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+.negritas{
+
+    font-weight: bold;
+    color: yellow;
+}
+
+.mapa{
+
+    width: 30%;
+    background-color: #6faee4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
