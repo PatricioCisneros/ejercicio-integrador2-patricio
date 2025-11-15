@@ -139,6 +139,32 @@
 
     <h2 class="titulo-cotizacion">Cotización de vehículos</h2>
 
+    <form id="formcotizacion" class="formulario">
+
+        <!-- NOMBRE -->
+        <label for="">Nombre completo:</label>
+        <input type="text" id="nombre" required>
+
+        <!-- CORREO -->
+        <label for="">Correo electrónico:</label>
+        <input type="email" id="correo" required>
+
+        <!-- TIPO DE FINANCIAMIENTO -->
+        <p><strong>Financiamiento:</strong></p>
+        <label for=""><input type="radio" name="financiamiento" value="contado" required>Contado</label>
+        <label for=""><input type="radio" name="financiamiento" value="credito" required>Crédito</label>
+
+        <!-- EXTRAS -->
+        <p><strong>Extras:</strong></p>
+        <label for=""><input type="checkbox" value="Aire acondicionado">Aire acondicionado</label>
+        <label for=""><input type="checkbox" value="Gps">Gps</label>
+        <label for=""><input type="checkbox" value="Seguro">Seguro</label>
+        <label for=""><input type="checkbox" value="Quemacocos">Quemacocos</label>
+        <label for=""><input type="checkbox" value="Camara trasera">Camara trasera</label>
+        <label for=""><input type="checkbox" value="Camara frontal">Camara frontal</label>
+
+    </form>
+
     <div class="pie-de-pagina">
         <p>Oscar Patricio Guerra Cisneros   #45760</p>
     </div>
