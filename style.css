@@ -75,3 +75,44 @@ gap: 15px;
     border-radius: 5px;
     text-align: center;
 }
+
+/* CONTENEDOR DE MARCAS */
+
+.contenedor-marcas{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* PRIMEROS 4 CUADROS */
+
+.honda, .nissan, .toyota, .mazda{
+
+    border: 2px solid gray;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background: white;
+
+}
+
+/* ACOMODO DE IMAGENES */
+
+.imagenes{
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.img-carro{
+
+    width: 120px;
+    height: auto;
+    border-radius: 6px;
+
+}
