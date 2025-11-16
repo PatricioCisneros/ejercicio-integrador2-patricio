@@ -8,9 +8,9 @@ function mostrarCotizacion(){
     var tipoFinanciamiento = document.querySelector("input[name='financiamiento']:checked").value
 
     //EXTRAS
-    var extrasSelecionados = [];
-    document.querySelectorAll("input[type='checkbox']: checked").forEach(c => {
-        extrasSelecionados.push(c.value);
+    var extrasSeleccionados = [];
+    document.querySelectorAll("input[type='checkbox']:checked").forEach(function (c) {
+        extrasSeleccionados.push(c.value);
     });
 
     //MOSTRAR EL RESULTADO
@@ -20,5 +20,6 @@ function mostrarCotizacion(){
     "<p><strong>Correo:</strong> " + correo + "</p>" +  
     "<p><strong>Financiamiento:</strong> " + tipoFinanciamiento + "</p>" + 
     "<p><strong>Marca seleccionada:</strong> " + marca + "</p>" +
-    "<p><strong>Extras:</strong> " + (extrasSelecionados.join(", ") || "Ninguno") + "</p>"; 
+    "<p><strong>Extras:</strong> " + (extrasSeleccionados.join(', ') || 'Ninguno') + "</p>"; 
 }
+
